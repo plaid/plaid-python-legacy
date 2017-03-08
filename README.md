@@ -1,9 +1,7 @@
 plaid-python-legacy  [![Build Status](https://travis-ci.org/plaid/plaid-python-legacy.svg)](https://travis-ci.org/plaid/plaid-python-legacy)
 ============
 
-The official python client library for the [Plaid API][1].
-
-This module was recently refactored and released with breaking changes as version `1.0.x`.
+Client library for Plaid's legacy API.
 
 ## Table of Contents
 
@@ -38,7 +36,6 @@ python setup.py install
 ## Documentation
 
 The module supports all Plaid API endpoints.  For complete information about the API, head to the [docs][2].
-
 
 ## Getting Started
 
@@ -352,7 +349,7 @@ institutions = client.institutions_all(count=50, offset=0, products=["auth","con
 singleInstitution = client.institution('ins_100003').json()
 ```
 
-For additional information, please see the [API Institutions docs](https://plaid.com/docs/api#institutions).
+For additional information, please see the [API Institutions docs](https://plaid.com/docs/legacy/api#institutions).
 
 **Note:** Use of the `institution_search()` and `institutions()` methods has been deprecated. Use `institution_all_search()` and `institutions_all()` methods instead.
 
@@ -385,8 +382,8 @@ $ make test
 [MIT][6]
 
 [1]: https://plaid.com
-[2]: https://plaid.com/docs/api
-[3]: https://plaid.com/docs/api/#response-codes
+[2]: https://plaid.com/docs/legacy/api
+[3]: https://plaid.com/docs/legacy/api#response-codes
 [4]: https://github.com/plaid/link
 [5]: https://github.com/plaid/plaid-python-legacy/issues/new
 [6]: https://github.com/plaid/plaid-python-legacy/blob/master/LICENSE

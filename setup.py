@@ -7,11 +7,10 @@ url = 'https://github.com/plaid/plaid-python-legacy'
 setup(
     name='plaid-python-legacy',
     version=plaid.__version__,
-    description="Simple Python API client for Plaid's legacy API endpoints",
+    description="Python API client library for Plaid's legacy API",
     long_description='',
     keywords='api, client, plaid',
     author='Chris Forrette',
-    author_email='chris@chrisforrette.com',
     url=url,
     download_url='{}/tarball/v{}'.format(url, plaid.__version__),
     license='MIT',
