@@ -10,7 +10,6 @@ setup(
     description="Python API client library for Plaid's legacy API",
     long_description='',
     keywords='api, client, plaid',
-    author='Chris Forrette',
     url=url,
     download_url='{}/tarball/v{}'.format(url, plaid.__version__),
     license='MIT',
