@@ -1,4 +1,4 @@
-plaid-python-legacy  [![Build Status](https://travis-ci.org/plaid/plaid-python-legacy.svg)](https://travis-ci.org/plaid/plaid-python-legacy)
+plaid-python-legacy [![Circle CI](https://circleci.com/gh/plaid/plaid-python-legacy.svg?style=svg&circle-token=fe2984b874ce1ba2b219c3c84a10f652ece7e966)](https://circleci.com/gh/plaid/plaid-python-legacy)
 ============
 
 Client library for Plaid's legacy API.
